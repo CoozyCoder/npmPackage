@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "ES2020",
+    "module": "ESNext",
+    "strict": true,
+    "declaration": true, //for automatically create a file of how may packages we have used
+    "declarationDir": "dist", //create a file named "index.d.ts",
+    "allowSyntheticDefaultImports": true
+  }
+}
